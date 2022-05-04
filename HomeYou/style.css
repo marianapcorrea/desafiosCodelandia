@@ -1,0 +1,69 @@
+:root{
+    --mainText:#272727;
+}
+
+/* Reset Css */
+nav, span, img, a, button, p, h1, h2, h3, li, ul{
+    margin: 0;
+    border:0;
+    padding:0;
+    text-decoration: none;
+}
+
+/* Geral */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 0 348px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Cabeçalho */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    color:var(--mainText);
+}
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size:24px ;
+    font-weight: 600;
+}
+
+.logoContainer{
+    background-color :#272727;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-right: 16px;
+}
+
+.navTabs span{
+    display: flex;
+    flex-direction: row;
+}
+.navTabs{
+    font-weight: 500;
+    display: flex;
+    padding: 0 24px;
+}
+
+.navTabs span:first-child{
+    margin-right: 16px;
+}
+
+.navTabs a {
+    padding: 0 24px;
+    color:var(--mainText);
+}
+
+.icon{
+    padding: 0 16px;
+}
